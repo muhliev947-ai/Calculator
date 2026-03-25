@@ -1,0 +1,46 @@
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.2vw;
+}
+
+.btn{
+    padding: 1.6vw;
+    border-radius: 12px;
+    border:1px solid wheat;
+    background-color: #333;
+    color: white;
+
+    &&:hover
+    {
+        background-color: blue;
+    }
+}
+
+.orange{
+    background-color: orange;
+}
+
+.calculator{
+    display: grid;
+    border: 2px solid gray;
+    border-radius: 12px;
+   
+}
+
+.d{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+.display{
+    width: 100%;
+    max-width: 260px;
+    padding: 1vw 0;
+    border-radius: 1vw;
+    text-align: right;
+    font-size: 2rem;
+    overflow: hidden;
+}
